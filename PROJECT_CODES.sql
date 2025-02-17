@@ -1,4 +1,4 @@
---MASTER TABLE DATA insertion part
+--MASTER TABLE DATA insertion parts
 begin
 --INSERT INTO ttsbank_sub_products (sub_product_id, product_id, feature, balance_limit, withdraw_limit) 
 --VALUES (3000, 2000, 'Silver', 5000, 50000);
@@ -53,9 +53,9 @@ end;
 create sequence sqcustrans start with 7000;
 --sequence for account number
 create sequence sqaccno start with 10000000;
---sequence for cus product id
+--sequence forï¿½cusï¿½productï¿½id
 CREATE SEQUENCE SQCUSPROD START WITH 4000 INCREMENT BY 1;
---sequence for customer id
+--sequenceï¿½forï¿½customerï¿½id
 CREATE SEQUENCE SQCUSID START WITH 5000 INCREMENT BY 1;
 --sequence for trackid
 create sequence sqtracid start with 100;
